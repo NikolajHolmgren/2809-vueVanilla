@@ -1,5 +1,8 @@
-let ogString = "Jeg er den originale string!"
+const ogString = "Jeg er den originale string! :-)"
 
-let body = document.querySelector("body")
+const wrapper = document.querySelector(".wrapsen")
 
-body.append(ogString)
+wrapper.innerHTML = ogString
+
+ogString = "..der skal være noget til"
+
